@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>LogIn and SignUp Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="head">
+        <img src="img/jooselogo.png">
+    </div>
+    
+    <div class="box">
+        <div class="page">
+            <div class="header">
+                <h3>Join our mailing list</h3>
+            </div>
+            <div id="errorMsg"></div>
+            <div class="content">
+                <form class="login" name="loginForm" onsubmit="return validateLoginForm()" method="POST">
+                    <input type="text" name="YourName" id="YourName" placeholder="Your Name">
+                    <input type="email" name="email" id="email" placeholder="Your @Email Address">
+                    <br><br>
+                    <input type="submit" value="Subscribe">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
