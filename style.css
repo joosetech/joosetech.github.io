@@ -1,10 +1,11 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url(background.jpg);
+
     background-size: cover;
     background-repeat: no-repeat;
     font-family : Verdana,Tahoma, sans-serif;
+
 }
 
 .head {
@@ -13,17 +14,27 @@ body{
     padding-top: 20px;
 }
 
+.bg {
+    text-align: center;
+    position: relative;
+    background: url(img/street.svg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    /* background-size: contain; */
+    background-size: 1000px 1000px;
+}
+
 .box{
     width: 380px;
-    height: 500px;
-    background-color:rgba(255, 255, 255, 0.7);
+    height: 900px;
+    /* background-color:rgba(255, 255, 255, 0.7); */
     padding: 20px;
     margin: 2% auto 0;
     text-align: center;
     position: relative;
     box-sizing: border-box;
     flex-direction: column;
-
 }
 
 .box img{
@@ -80,6 +91,7 @@ body{
 .content{
     display: inline-flex;
     overflow: hidden;
+
 }
 
 form {
